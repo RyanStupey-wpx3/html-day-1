@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+}
+
+header{
+    /* border: 2px solid orange; */
+    }
+
+    .titan {
+        position: absolute;
+    }
+    
+    .main {
+        background-image: url(./images/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* z-index: -1; */
+        /* background-color:black; */
+        /* border: 5px solid red; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+        
+        
+    }
+
+    .main:before{
+        position: absolute;
+       content: " ";
+       background-color: black;
+        padding-bottom: 60%;
+        opacity: 0.4;
+        z-index: 1;
+        /* border: 4px solid red; */
+        width: 100%;
+        /* height: 100rem; */
+
+    }
+    
+    .central{
+        background-color:;
+        margin-top: 8rem;
+        margin-bottom: 10.4rem;
+        width: 75%;
+        height: 30rem;
+        /* border: 2px solid white; */
+        
+        /* opacity: 1; */
+        
+    }
+    
+    .search {
+
+        color: white;
+        margin-left: 70px;
+        margin-top: 25px;
+        height: 3rem;
+
+    }
+    
+    .left-short {
+        width: 100px;
+        background: url("images/DevMountain_Logo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 3rem;
+        width: 15rem;
+        /* border: 2px solid red; */
+        /* margin-top: 25px; */
+    }
+
+    .search.right-long {
+        display: inline-block;
+        margin-right:50px;
+        word-spacing: 6px;
+        float: right;
+        width: 350px;
+    }
+
+    .search.right-long ul li {
+        display: inline;
+    }
+    
+    .search.right-long ul li:hover{
+        color: blue;
+    }
+
+    .top-search {
+        /* background-color: white; */
+        position: absolute;
+        margin: 4rem auto;
+        z-index: 4;
+        opacity: 1;
+        /* border: 2px solid blue; */
+        text-align: center;
+        width: 75%;
+        height: 4rem;
+        font-size: 64px;
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+        
+    }
+    
+    .bottom-search {
+        /* background-color: white; */
+        position: absolute;
+        top: 25rem;
+        z-index:4;
+        margin: 4rem auto;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        text-align: center;
+        /* border: 2px solid blue; */
+        width: 75%;
+        height: 4rem;
+    
+    }
+    
+    button {
+        /* margin-left: 9.7rem; */
+        /* border: 2px solid white; */
+        height: 2.5rem;
+        width: 25%;
+        border-radius: 5px;
+        z-index: 4;
+        position: absolute;
+       
+    }
+    
+    .button-left {
+        margin-left: 25%;
+        top: 35rem;
+        background-color: #259BCC;
+        color: white;
+    }
+      
+    .black-s {
+        background: black;
+        height: 100px;
+    }
